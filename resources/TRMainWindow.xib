@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">101000</int>
-		<string key="IBDocument.SystemVersion">14A388a</string>
-		<string key="IBDocument.InterfaceBuilderVersion">6250</string>
-		<string key="IBDocument.AppKitVersion">1343.14</string>
+		<string key="IBDocument.SystemVersion">14B25</string>
+		<string key="IBDocument.InterfaceBuilderVersion">6254</string>
+		<string key="IBDocument.AppKitVersion">1343.16</string>
 		<string key="IBDocument.HIToolboxVersion">755.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">6250</string>
+			<string key="NS.object.0">6254</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSButton</string>
@@ -42,12 +42,12 @@
 				<string key="NSClassName">NSApplication</string>
 			</object>
 			<object class="NSWindowTemplate" id="933888691">
-				<int key="NSWindowStyleMask">8214</int>
+				<int key="NSWindowStyleMask">8215</int>
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{1142, 619}, {201, 285}}</string>
 				<int key="NSWTFlags">1954022400</int>
 				<string key="NSWindowTitle">Transistor</string>
-				<string key="NSWindowClass">NSPanel</string>
+				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<string key="NSWindowContentMaxSize">{201, 285}</string>
@@ -128,7 +128,6 @@
 							<string key="NSFrame">{{92, 21}, {93, 17}}</string>
 							<reference key="NSSuperview" ref="512089176"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="907792755">
 								<int key="NSCellFlags">68157504</int>
@@ -311,7 +310,7 @@
 											<string key="NSFrameSize">{234, 243}</string>
 											<reference key="NSSuperview" ref="345763838"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="1051329967"/>
+											<reference key="NSNextKeyView" ref="229624612"/>
 											<object class="NSTextContainer" key="NSTextContainer" id="476426448">
 												<object class="NSLayoutManager" key="NSLayoutManager">
 													<object class="NSTextStorage" key="NSTextStorage">
@@ -433,7 +432,7 @@
 							<string key="NSFrame">{{20, 54}, {236, 245}}</string>
 							<reference key="NSSuperview" ref="199322460"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="229624612"/>
+							<reference key="NSNextKeyView" ref="345763838"/>
 							<int key="NSsFlags">133650</int>
 							<reference key="NSVScroller" ref="1051329967"/>
 							<reference key="NSHScroller" ref="229624612"/>
@@ -479,7 +478,6 @@
 							<string key="NSFrame">{{131, 18}, {125, 25}}</string>
 							<reference key="NSSuperview" ref="199322460"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="737295766">
 								<int key="NSCellFlags">-2080374784</int>
@@ -643,7 +641,6 @@
 							<string key="NSFrame">{{370, 12}, {96, 32}}</string>
 							<reference key="NSSuperview" ref="366847182"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="857074812">
 								<int key="NSCellFlags">67108864</int>
@@ -1443,14 +1440,6 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBFrameworkSource</string>
 						<string key="minorKey">AppKit.framework/Headers/NSMenu.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSPanel</string>
-					<string key="superclassName">NSWindow</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSPanel.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
